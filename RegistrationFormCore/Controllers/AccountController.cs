@@ -18,10 +18,6 @@ namespace RegistrationFormCore.Controllers
             this.userManager =userManager;
             this.signInManager = signInManager;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         public IActionResult Register()
         {
